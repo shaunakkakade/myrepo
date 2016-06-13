@@ -25,31 +25,40 @@ This project depends on other 3 repositories for Eureka, Zuul and Hello-Service 
 ### Download source code
 
 - Clone this repository.
-     **`git clone https://github.com/ibm-solution-engineering/netflixbluemix-cf.git`**
+
+    **`git clone https://github.com/ibm-solution-engineering/netflixbluemix-cf.git`**
 
 - Clone the netflix core repository (if you haven't setup the Container based environment)
-     **`git clone https://github.com/ibm-solution-engineering/netflixbluemix-core.git`**
+
+    **`git clone https://github.com/ibm-solution-engineering/netflixbluemix-core.git`**
   
 - Clone the netflix MySQL App repository 
-     **`git clone https://github.com/ibm-solution-engineering/netflixbluemix-mysql.git`**
+    
+  **`git clone https://github.com/ibm-solution-engineering/netflixbluemix-mysql.git`**
 
 ## Build and Deploy the solution to Bluemix
 
  - Deploy all components
    Login your Bluemix space:
+
    **`cf login`**
 
    Build and deploy all component:
+   
    **`$ ./deployApp.sh all`**
    
  - Deploy individual components
    Login your Bluemix space:
+
    **`cf login`**
+
 
    **`$ ./deployApp.sh eureka`**
    or
+   
    **`$ ./deployApp.sh helloapp`**
    or
+   
     **`$ ./deployApp.sh zuul`**
     
     
