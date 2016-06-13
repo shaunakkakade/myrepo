@@ -1,0 +1,6 @@
+applications:
+- name: hello-springboot-app
+  memory: 512M
+  path: gs-spring-boot-0.1.0.jar
+  host: hello-springboot-app
+  buildpack: java_buildpack

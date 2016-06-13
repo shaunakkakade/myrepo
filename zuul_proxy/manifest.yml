@@ -1,0 +1,6 @@
+applications:
+- name: zuul-spring-boot 
+  memory: 512M
+  path: zuul-spring-boot-0.1.0.jar
+  host: zuul-spring-boot
+  buildpack: java_buildpack 

@@ -1,0 +1,6 @@
+applications:
+- name: eureka-server-spring
+  memory: 512M
+  path: eureka-spring-boot-0.1.0.jar
+  host: eureka-server-spring
+  buildpack: java_buildpack

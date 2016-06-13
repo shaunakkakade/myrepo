@@ -1,0 +1,28 @@
+eureka:
+  client:
+    serviceUrl:
+       defaultZone: http://eureka-server-spring.mybluemix.net/eureka/
+
+
+info:
+  component: Zuul Proxy Server Bluemix
+
+# Spring properties
+spring:
+  application:
+     name: zuul-proxy
+
+cloud:
+  conablefig:
+    failFast: true
+    discovery:
+      end: true
+
+server:
+  port: 8080
+
+logging:
+  level:
+    ROOT: INFO
+    org.springframework.web: INFO
+    hello: DEBUG
