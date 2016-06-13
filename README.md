@@ -54,9 +54,11 @@ This project depends on other 3 repositories for Eureka, Zuul and Hello-Service 
 
 
    **`$ ./deployApp.sh eureka`**
+   
    or
    
    **`$ ./deployApp.sh helloapp`**
+   
    or
    
     **`$ ./deployApp.sh zuul`**
