@@ -14,9 +14,9 @@ spring:
   # MySQL Data soure configuration
   datasource:
     driverClassName: com.mysql.jdbc.Driver
-    url: jdbc:mysql://us-cdbr-iron-east-03.cleardb.net/ad_5bc9d4b23eb79bd?user=b6f241267bae0e&password=aa81b830
-    username: b6f241267bae0e
-    password: aa81b830
+    url: jdbc:mysql://
+    username: 
+    password: 
     max-active: 2
     testOnBorrow: true
     validationQuery: SELECT 1
